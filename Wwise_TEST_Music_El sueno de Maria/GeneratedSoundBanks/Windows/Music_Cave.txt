@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	55565095	Music_Event			\Default Work Unit\Music_Event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	671983698	Loop_Cave_Piano	C:\Users\Médélice Monnel\Desktop\Megalot PJ 2\Test_Music_PJ2_U\Test_Music_PJ2_W\.cache\Windows\SFX\Loop_Cave_Piano_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Cave_Piano\Loop_Cave_Piano		9676864
+

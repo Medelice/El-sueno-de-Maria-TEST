@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Médélice Monnel\Desktop\Megalot PJ 2\Test_Music_PJ2_U\Test_Music_PJ2_W\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Médélice Monnel\Desktop\Megalot PJ 2\Test_Music_PJ2_U\Test_Music_PJ2_W\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Médélice Monnel\Desktop\Megalot PJ 2\Test_Music_PJ2_U\Test_Music_PJ2_W\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Médélice Monnel\Desktop\Megalot PJ 2\Test_Music_PJ2_U\Test_Music_PJ2_W\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3645308278" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music_Cave</ObjectPath>
+			<ShortName>Music_Cave</ShortName>
+			<Path>Music_Cave.bnk</Path>
+			<IncludedEvents>
+				<Event Id="55565095" Name="Music_Event" ObjectPath="\Events\Default Work Unit\Music_Event" DurationType="OneShot" DurationMin="54.857143" DurationMax="54.857143">
+					<IncludedMemoryFiles>
+						<File Id="671983698" Language="SFX">
+							<ShortName>Loop_Cave_Piano.wav</ShortName>
+							<Path>SFX\Loop_Cave_Piano_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

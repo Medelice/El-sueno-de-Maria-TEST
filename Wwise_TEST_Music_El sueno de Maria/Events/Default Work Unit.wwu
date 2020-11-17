@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B8F2A27A-E9F6-4DF9-987B-8AFE5CE18A6C}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B8F2A27A-E9F6-4DF9-987B-8AFE5CE18A6C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Music_Event" ID="{50BF4620-BF3E-4175-B759-9E7E184A0AFD}">
+					<ChildrenList>
+						<Action Name="" ID="{F7D28D8D-A8BF-41D2-9B34-47354E1540C5}" ShortID="426326910">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Cave_Piano" ID="{E935FDFF-F4E5-4EF5-8F40-EF705867093B}" WorkUnitID="{BFBA9D91-4247-44A2-BC10-DF7CDE794DFE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

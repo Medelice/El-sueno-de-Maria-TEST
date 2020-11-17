@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BFBA9D91-4247-44A2-BC10-DF7CDE794DFE}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{BFBA9D91-4247-44A2-BC10-DF7CDE794DFE}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Music_Cave_Piano" ID="{E935FDFF-F4E5-4EF5-8F40-EF705867093B}" ShortID="18349892">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="54857.1428571429"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B6943B6E-38A0-49BB-9443-60367B688EBD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A878DC3-D2B4-4654-A169-075D62703BAB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Loop_Cave_Piano" ID="{8E527931-FF7D-46DB-BE33-97C517722C04}" ShortID="285911835">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A878DC3-D2B4-4654-A169-075D62703BAB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Loop_Cave_Piano" ID="{790E136B-458E-4709-911D-D2B77AB1DB68}">
+									<Language>SFX</Language>
+									<AudioFile>Loop_Cave_Piano.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="671983698"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D375368F-2DF3-4D0C-B9C7-36548D613312}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{964276C1-363E-4996-8CCA-BB37E5A24810}">
+									<ClipList>
+										<MusicClip Name="Loop_Cave_Piano" ID="{C3C6AC03-5CE9-4E27-919E-91CE0C0D5DCF}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="54857.1428571429"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Loop_Cave_Piano" ID="{790E136B-458E-4709-911D-D2B77AB1DB68}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{4698DDB6-2ADC-4DB7-9843-644C4C547843}"/>
+						<MusicCue Name="Exit Cue" ID="{D46BF0B3-704D-4917-A521-9D1C244B298E}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
